@@ -15,8 +15,17 @@
     clear: both;
 }
 
+/* Padding ai lati */
 [class*="col-"]{
     float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* ⇡⇡ Serve per annullare i padding altimenti si sommerebbero dalla regola sopra ⇡⇡ */
+[class*="col-"].padding-0{
+    padding-left: 0;
+    padding-right: 0;
 }
 
 /* Colonne-Griglia */
