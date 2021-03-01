@@ -14,4 +14,5 @@ h2{
     padding: 10px;
     text-align: center;
     background: rgba(154, 178, 103, 1);
+    border: 1px solid black;
 }
